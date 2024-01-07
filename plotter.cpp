@@ -133,7 +133,7 @@ void Plotter::showFourierTransform(QVector<QPointF> &combinedSignalDataPoints){
     signalDataSeries->clear();
     signalDataPoints.clear();
 
-    signalDataPoints = calculateWrappedSignalPoints(combinedSignalDataPoints);
+    signalDataPoints = calculateFourierTransform(combinedSignalDataPoints);
 
     signalDataSeries->replace(signalDataPoints);
     updateAxisY();

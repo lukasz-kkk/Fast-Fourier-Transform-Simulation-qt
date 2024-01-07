@@ -15,7 +15,7 @@ QVector<QPointF> calculateWrappedSignalPoints(QVector<QPointF> &signalDataPoints
     return resultVector;
 }
 
-QVector<QPointF> calculateWrappedSignalPoints(QVector<QPointF> &signalDataPoints){
+QVector<QPointF> calculateFourierTransform(QVector<QPointF> &signalDataPoints){
     QVector<QPointF> result;
     for(int i = 25; i < 300; i++){
         QPointF sum(0, 0);

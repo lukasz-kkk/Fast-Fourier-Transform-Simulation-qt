@@ -8,7 +8,7 @@
 
 QVector<QPointF> calculateWrappedSignalPoints(QVector<QPointF> &signalDataPoints, double wrappingFrequency);
 
-QVector<QPointF> calculateWrappedSignalPoints(QVector<QPointF> &signalDataPoints);
+QVector<QPointF> calculateFourierTransform(QVector<QPointF> &signalDataPoints);
 
 #endif // FFT_H
 
