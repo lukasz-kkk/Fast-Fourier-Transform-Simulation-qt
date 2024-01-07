@@ -28,3 +28,4 @@ is a primitive n'th root of 1.
 
 # Information
 Qt 6.6.0 used.
+
