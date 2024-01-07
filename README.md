@@ -13,6 +13,7 @@ $$A * sin(Ft2\pi)+A$$
 where
 $$A=Amplitude$$
 $$F=Frequency$$
+$$t=time$$
 
 All added signals appear in the history, in the "Signals history" window.
 
