@@ -17,7 +17,7 @@ QVector<QPointF> calculateWrappedSignalPoints(QVector<QPointF> &signalDataPoints
 
 QVector<QPointF> calculateWrappedSignalPoints(QVector<QPointF> &signalDataPoints){
     QVector<QPointF> result;
-    for(int i = 0; i < 300; i++){
+    for(int i = 25; i < 300; i++){
         QPointF sum(0, 0);
         double frequency = (double)i / 25;
         QVector<QPointF> wrappedSignal = calculateWrappedSignalPoints(signalDataPoints, frequency);
